@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="wideth=device-width,initial-scale=1.0">
+		<title>Super Mario</title>
+		<link rel="stylesheet" href="mole.css">
+		<script src="mole.js"></script>
+	</head>
+	<body>
+		
+		<button onclick="
+		location.reload()
+		"class = "play-button">Reset</button>
+		
+		<button onclick="		
+		if (gameOver == false){
+		playSong();
+		setGame();
+		}
+		else if (gameOver == true){
+		return;
+		}"class ="js-play play-button">Play</button>
+				
+		<h2 id="score"> 0 </h2>
+		<!--3x3-->
+		<div id="board"><img src="./palace.jpg">
+		</div>
+		
+		<p class="js-song"></p>
+
+		
+	</body>
+</html> 
