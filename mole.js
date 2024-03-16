@@ -5,8 +5,8 @@ let score = 0;
 let gameOver = false;
 let start = false;
 
-const myInterval = setInterval(setMole,1000); 
-const herInterval = setInterval(setPlant,1000);
+const myInterval = setInterval(setMole,1100); 
+const herInterval = setInterval(setPlant,1100);
 
 function setGame(){
 	
